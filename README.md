@@ -1,1 +1,1 @@
-# gaze-hallucination-detection
+# Eyes Show the Way: Modelling Gaze Behaviour for Hallucination Detection

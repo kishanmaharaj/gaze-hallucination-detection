@@ -2,7 +2,7 @@
 
 This repository contains the code for the EMNLP 2023 paper: [Eyes Show the Way: Modelling Gaze Behaviour for Hallucination Detection](https://aclanthology.org/2023.findings-emnlp.764.pdf) 
 
-The dataset will soon be available on huggingface.
+We collect and introduce an eye tracking corpus (IITB-HGC: IITB-Hallucination Gaze corpus) consisting of 500 instances, annotated by five annotators for hallucination detection. This dataset is available on huggingface: [IITB-HGC](https://huggingface.co/datasets/cfilt/IITB-HGC)
 
 ## Introduction 
 

@@ -14,7 +14,22 @@ def encoding_label(data, column_name, encoding_seq):
 
 
 
-def get_factcc_data(print_distribution=True, complete_text=False):
+def get_factcc_data(print_distribution=True, complete_text=False, only_test=False):
+
+    if only_test:
+        print("Including Global Attention bias text from ensemble")
+        test_data_ab = pd.read_csv("data/factcc/test_ann_ensemble.csv")
+        test_data_ab = encoding_label(data=test_data_ab, column_name="label", encoding_seq=["CORRECT", "INCORRECT"])
+        
+        df_test = pd.DataFrame()
+        df_test['sentence1'] = test_data_ab['final_sent']
+        df_test['sentence2'] = test_data_ab['claim']
+        df_test['label'] = test_data_ab['encoded_label']
+        df_test['idx'] = test_data_ab.index.tolist()
+
+        return df_test
+
+        
     
     # load Dataset Labse
     train_data_ab_labse =  pd.read_csv("data/factcc/train_labse_full.csv")

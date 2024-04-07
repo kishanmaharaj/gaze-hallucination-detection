@@ -3,7 +3,7 @@ The "models" folder can be downloaded from the link below:
 ```
 https://drive.google.com/file/d/1fu-Ssng1O2vf6djOKWZtrK4vO6g0RAm2/view?usp=sharing
 ```
-Please note that the downloaded content will be a compressed folder (.zip file) containing the "models" directory. 
+Please note that the downloaded file will be a compressed folder (.zip file) containing the "models" directory. 
 After decompressing the .zip file, please keep the obtained "models" folder in this directory. 
 
 The content of the "models" directory is described here: 
